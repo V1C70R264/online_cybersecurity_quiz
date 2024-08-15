@@ -2,8 +2,8 @@ import 'package:flutter/material.dart';
 import 'package:google_fonts/google_fonts.dart';
 
 class StartScreen extends StatelessWidget {
-  const StartScreen(this.StartQuiz, {super.key});
-  final  void Function() StartQuiz;
+  const StartScreen( this.StartQuiz,{super.key});
+  final void Function() StartQuiz;
   @override
   Widget build(context) {
     return Center(
@@ -17,14 +17,11 @@ class StartScreen extends StatelessWidget {
           SizedBox(
             height: 20,
           ),
-          Text(
-            'CyberSecurity is much more than the matter of IT',
-            style:GoogleFonts.greatVibes(
-              color: Colors.white,
-              fontWeight: FontWeight.bold,
-              fontSize: 20
-            )
-          ),
+          Text('CyberSecurity is much more than the matter of IT',
+              style: GoogleFonts.seaweedScript(
+                  color: Colors.white,
+                  fontWeight: FontWeight.bold,
+                  fontSize: 20)),
           SizedBox(
             height: 10,
           ),

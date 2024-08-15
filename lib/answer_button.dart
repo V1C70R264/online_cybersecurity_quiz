@@ -7,10 +7,11 @@ class AnswerButton extends StatelessWidget {
   final void Function() onTap;
   @override
   Widget build(context) {
-    return OutlinedButton.icon(
+    return OutlinedButton(
+      
         onPressed: onTap,
-        icon: const Icon(Icons.dangerous_outlined,),
-        label: Text(answerText, textAlign: TextAlign.center,),
+       // icon: const Icon(Icons.dangerous_outlined,),
+        child: Text(answerText, textAlign: TextAlign.center,),
         
         style: OutlinedButton.styleFrom(
           foregroundColor: Colors.white,
