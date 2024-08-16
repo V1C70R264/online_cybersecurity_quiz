@@ -91,4 +91,104 @@ const questions = [
       'A type of firewall used to block unauthorized access'
     ],
   ),
+    QuizQuestion(
+      text: 'What is the purpose of a digital forensic investigation?',
+      answers:[
+        'To analyze and preserve digital evidence for legal purposes',
+        'To prevent unauthorized network access',
+        'To develop encryption strategies',
+        'To manage IT infrastructure',
+        'To perform regular system maintenance'
+      ]
+    ),
+    QuizQuestion(
+      text: 'What does the term “ransomware” refer to?',
+     answers: [
+        'Malware that encrypts data and demands a ransom for decryption',
+        'A type of phishing attack',
+        'A network monitoring tool',
+        'A software for data recovery',
+        'A method for network segmentation'
+      ]
+    ),
+    QuizQuestion(
+      text: 'Which protocol is commonly used to secure email communications?',
+      answers:[
+        'SMTP with TLS',
+        'FTP',
+        'HTTP',
+        'IMAP',
+        'POP3'
+      ]
+    ),
+    QuizQuestion(
+      text: 'What is the function of a Security Information and Event Management (SIEM) system?',
+      answers:[
+        'To collect, analyze, and manage security data',
+        'To perform system backups',
+        'To manage user authentication',
+        'To encrypt network traffic',
+        'To configure firewall rules'
+      ]
+    ),
+    QuizQuestion(
+     text:  'What does the term “penetration testing” mean?',
+      answers:[
+        'Simulating attacks to find and fix security vulnerabilities',
+        'Monitoring network traffic for suspicious activity',
+        'Encrypting sensitive data',
+        'Managing access controls',
+        'Creating secure backups'
+      ]
+    ),
+    QuizQuestion(
+      text: 'Which of the following is a common method for authenticating users?',
+      answers:[
+        'Password and username combination',
+        'Data encryption',
+        'Network monitoring',
+        'File compression',
+        'Antivirus scanning'
+      ]
+    ),
+   
+   QuizQuestion(
+    text: 'What is an “Evil Twin” attack in the context of Wi-Fi security?',
+    answers:[
+      'A malicious Wi-Fi access point that mimics a legitimate one to intercept data',
+      'A method of encrypting Wi-Fi traffic to protect against eavesdropping',
+      'A technique for boosting Wi-Fi signal strength',
+      'A tool for monitoring network traffic',
+      'A type of firewall rule for Wi-Fi networks'
+    ]
+  ),
+    QuizQuestion(
+      text: 'What does “data integrity” refer to?',
+      answers:[
+        'Ensuring that data remains accurate and unaltered during storage and transmission',
+        'Encrypting data to prevent unauthorized access',
+        'Creating backups of data',
+        'Managing user permissions',
+        'Monitoring network traffic'
+      ]
+    ),
+    QuizQuestion(
+      text:'Which of the following is a technique used to identify security weaknesses in an organization’s systems?',
+      answers:[
+        'Vulnerability scanning',
+        'Data encryption',
+        'User authentication',
+        'File compression',
+        'Network performance analysis'
+      ]
+    ),
+ QuizQuestion(
+    text: 'Which type of password attack involves trying all possible combinations to guess the correct one?',
+    answers:[
+      'Brute Force Attack',
+      'Phishing Attack',
+      'Man-in-the-Middle Attack',
+      'Dictionary Attack'
+    ]
+  )
 ];

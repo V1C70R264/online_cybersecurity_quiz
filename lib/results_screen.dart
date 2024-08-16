@@ -39,7 +39,7 @@ class ResultsScreen extends StatelessWidget {
           mainAxisAlignment: MainAxisAlignment.center,
           children: [
             Text(
-              (numCorrectQuestions <= 5) ? 'Good Trial!!!' : 'Excellent!!!',
+              (numCorrectQuestions <= 10) ? 'Good Trial!!!' : 'Excellent!!!',
               style: GoogleFonts.seaweedScript(
                   color: Colors.white,
                   fontWeight: FontWeight.bold,
